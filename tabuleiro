@@ -1,1 +1,27 @@
+public class tabuleiro {
+	static int tamanhoX = 10;
+	static int tamanhoY = 10;
+	static int limiteMaximoDeNavios = 5;
+	static int tabuleiro1[][], tabuleiro2[][];
+	
+	
+	public static void calcularQuantidadeMaximaDeNaviosNoJogo() {
+		limiteMaximoDeNavios = (tamanhoX * tamanhoY) / 3;
+	}
+	
+	public static void iniciandoOsTamanhosDosTabuleiros() {
+		tabuleiro1 = new int [tamanhoX][tamanhoY];
+		tabuleiro2 = new int[tamanhoX][tamanhoY];
+	}
+	
+	public static void quantidadeDeNaviosNoJogo(int navios) {
+		 navios = limiteMaximoDeNavios;
+	}
+	
+	public static void main(String[] args) {
+		calcularQuantidadeMaximaDeNaviosNoJogo();
+		iniciandoOsTamanhosDosTabuleiros();
+		quantidadeDeNaviosNoJogo(limiteMaximoDeNavios);
+	}
 
+}
