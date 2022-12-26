@@ -1,0 +1,13 @@
+package main;
+
+
+import javax.swing.*;
+
+import controle.controle;
+import controle.movimento;
+import modelos.blocos;
+import modelos.tabuleiro;
+
+
+
+import java.awt.*;
