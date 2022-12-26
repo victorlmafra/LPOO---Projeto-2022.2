@@ -1,0 +1,9 @@
+package main;
+
+import javax.swing.SwingUtilities;
+
+import interfaces.inicio;
+
+public class rodar
+  {
+}
